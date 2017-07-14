@@ -1,0 +1,11 @@
+-name toy@127.0.0.1
+-setcookie toy
+
++K true
++A 30
+
+# Deliberately set a fairly low count on Max number of open ports
++Q 2048
+
+# Enable time warping
++C multi_time_warp
